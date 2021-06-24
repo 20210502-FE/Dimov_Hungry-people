@@ -1,0 +1,34 @@
+.form-contact {
+    font-family: $o-font-light,sans-serif;
+    font-size: 14px;
+    line-height: 19.07px;
+    line-height: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: $bg-color-mercury;
+    width: 420px;
+    height: 60px;
+    
+    &__second {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    &__message {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+}
+
+.contact-info {
+    font-family: $o-font-bold,sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #8d8d8d;
+}
+
+.button-contact {
+    width: 640px;
+}

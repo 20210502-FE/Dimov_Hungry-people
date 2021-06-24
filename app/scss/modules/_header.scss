@@ -1,0 +1,127 @@
+.header {
+    height: 800px;
+    max-width: 100%;
+    background-image: url("../../assets/images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__logo h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $d-font-bold, sans-serif;
+        font-size: 96px;
+        padding: 15px 0;
+    }
+
+    &__schedule {
+        font-family: $o-font-bold, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 12px;
+        line-height: 73.43%;
+        position: absolute;
+        transform: rotate(-90deg);
+        margin-left: -115px;
+        margin-top: 120px;
+    }
+    
+    &__social {
+        &-item {
+        position: absolute;
+        }
+    
+        &-link {
+            margin: 10px 0;
+        }    
+    }
+    
+
+}
+
+.nav {
+
+    &-item {
+        height: 100%;
+        width: 133px;
+        height: 100px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    &-link {
+        font-family: $o-font-bold, sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        line-height: 110.15%;
+        color: $color-white;
+        text-transform: uppercase;
+        &_black {
+            color: $color-black;
+        }
+    }
+   
+    &-icon {
+        display: block;
+        margin: 0 auto;
+        margin-top: -75px;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 151px;
+    }
+}
+    
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $o-font-bold, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    line-height: 85.67%;
+    letter-spacing: 50%;
+    padding: 4px 0;
+}
+
+.border-bottom {
+    margin: 0 auto;
+    border-top: 5px $color-corn solid;
+    border-radius: 50px;
+    width: 62px;
+    margin-bottom: 31px;
+}
+
+.button {
+    font-family: $o-font-bold, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    width: 200px;
+    color: $color-white;
+    padding: 22.5px 0;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin: 0 20px;
+    margin-bottom: 82px;
+     
+    &_bg-corn {
+        background-color: $color-corn;
+        border: $color-corn;
+    }
+}
+
+.button-round {
+    border: transparent;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+
+
+ 
+
+
+   

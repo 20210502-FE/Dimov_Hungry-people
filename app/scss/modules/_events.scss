@@ -1,0 +1,31 @@
+.event {
+    background-image: url("../../assets/images/bg-event.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+
+    &__content {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &-item {
+        text-align: center;
+        font-family: $o-font-light, sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: -50px;
+    }
+
+    &-tel {
+        font-family: $o-font-bold,sans-serif;
+        font-weight: bold;
+    }
+}
+
+.gallery-pictures {
+    max-width: 360px;
+    max-height: 360px;
+    margin-top: -1px;
+}

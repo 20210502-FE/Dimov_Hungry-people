@@ -1,0 +1,30 @@
+.menu {
+
+    &__nav-item {
+        width: 120px;
+        padding: 16px 0; 
+        text-align: center;
+        margin-bottom: 51px;
+
+        &:nth-child(even) {
+            border-left: 1px solid rgba(51, 51, 51, 0.2);
+            border-right: 1px solid rgba(51, 51, 51, 0.2);
+        }
+    }
+
+    &__list {
+        width: 363px;
+        height: 66px;
+    
+        &-item {
+            font-family: $d-font-regular,sans-serif;
+            font-size: 18px;
+            line-height: 18px;
+            color: $color-mine-shaft;
+        }
+    }
+}
+         
+.item-transparent {
+    color: rgba(51, 51, 51, 0.2);
+}

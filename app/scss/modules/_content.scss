@@ -1,0 +1,85 @@
+.container {
+    padding: 100px 0;
+}
+
+.content {
+
+    &-top{
+        margin-top: 117px;
+    }
+    
+    &-left {
+        text-align: center;
+        max-width: 600px;
+    }
+    
+    &-right {
+        text-align: center;
+        width: 100%;
+        max-width: 600px
+    }
+    
+    &-item {
+        font-family: $o-font-light,sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.sub-title {
+    font-family: $o-font-bold,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+.team {
+    background-image: url("../../assets/images/bg-team.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.content-booking {
+    margin-top: 62px;
+}
+
+.form-booking {
+    font-family: $o-font-light,sans-serif;
+    font-size: 14px;
+    line-height: 19.07px;
+    line-height: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 5px;
+    background-color: $bg-color-mercury;
+    width: 277px;
+    height: 60px;
+}
+
+.button {
+
+    &-content {
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        background-color: $color-corn;
+        color: $color-white;
+    }
+
+    &-booking {
+        width: 565px;
+        margin-left: -25px;
+    }
+}    
+
+.heading_content {
+    margin-top: -18px;
+}
+
+.specialties {
+    background-image: url("../../assets/images/bg-specialties.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
