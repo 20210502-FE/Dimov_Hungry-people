@@ -1,0 +1,439 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url("..assets/fonts/open-sans-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("..assets/fonts/open-sans-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("..assets/fonts/open-sans-v20-latin-regular.woff2") format("woff2"), url("..assets/fonts/open-sans-v20-latin-regular.woff") format("woff"), url("..assets/fonts/open-sans-v20-latin-regular.ttf") format("truetype"), url("..assets/fonts/open-sans-v20-latin-regular.svg#OpenSans") format("svg");
+  /* Legacy iOS */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("..assets/fonts/open-sans-v20-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("..assets/fonts/open-sans-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("..assets/fonts/open-sans-v20-latin-700.woff2") format("woff2"), url("..assets/fonts/open-sans-v20-latin-700.woff") format("woff"), url("..assets/fonts/open-sans-v20-latin-700.ttf") format("truetype"), url("..assets/fonts/open-sans-v20-latin-700.svg#OpenSans") format("svg");
+  /* Legacy iOS */
+}
+
+/* dosis-500 - latin */
+@font-face {
+  font-family: 'Dosis Regular';
+  font-style: normal;
+  font-weight: 500;
+  src: url("..assets/fonts/dosis-v19-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("..assets/fonts/dosis-v19-latin-500.eot?#iefix") format("embedded-opentype"), url("..assets/fonts/dosis-v19-latin-500.woff2") format("woff2"), url("..assets/fonts/dosis-v19-latin-500.woff") format("woff"), url("..assets/fonts/dosis-v19-latin-500.ttf") format("truetype"), url("..assets/fonts/dosis-v19-latin-500.svg#Dosis") format("svg");
+  /* Legacy iOS */
+}
+
+/* dosis-700 - latin */
+@font-face {
+  font-family: 'Dosis Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("..assets/fonts/dosis-v19-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("..assets/fonts/dosis-v19-latin-700.eot?#iefix") format("embedded-opentype"), url("..assets/fonts/dosis-v19-latin-700.woff2") format("woff2"), url("..assets/fonts/dosis-v19-latin-700.woff") format("woff"), url("..assets/fonts/dosis-v19-latin-700.ttf") format("truetype"), url("..assets/fonts/dosis-v19-latin-700.svg#Dosis") format("svg");
+  /* Legacy iOS */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.wrapper_color-white {
+  color: #ffffff;
+}
+
+.wrapper_color-black {
+  color: #000000;
+}
+
+.title {
+  font-family: "Dosis Bold", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.title_white {
+  color: #ffffff;
+}
+
+.title_regular {
+  font-family: "Dosis Regular", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_align-start {
+  align-items: flex-start;
+}
+
+.flex_align-center {
+  align-items: center;
+}
+
+.flex_align-end {
+  align-items: flex-end;
+}
+
+.flex_content-center {
+  justify-content: center;
+}
+
+.flex_space-between {
+  justify-content: space-between;
+}
+
+.flex_end {
+  justify-content: flex-end;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.header {
+  height: 800px;
+  max-width: 100%;
+  background-image: url("../../assets/images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__logo h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Dosis Bold", sans-serif;
+  font-size: 96px;
+  padding: 15px 0;
+}
+
+.header__schedule {
+  font-family: "Open Sans Bold", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  line-height: 73.43%;
+  position: absolute;
+  transform: rotate(-90deg);
+  margin-left: -115px;
+  margin-top: 120px;
+}
+
+.header__social-item {
+  position: absolute;
+}
+
+.header__social-link {
+  margin: 10px 0;
+}
+
+.nav-item {
+  height: 100%;
+  width: 133px;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.nav-link {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: 110.15%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.nav-link_black {
+  color: #000000;
+}
+
+.nav-icon {
+  display: block;
+  margin: 0 auto;
+  margin-top: -75px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 151px;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  line-height: 85.67%;
+  letter-spacing: 50%;
+  padding: 4px 0;
+}
+
+.border-bottom {
+  margin: 0 auto;
+  border-top: 5px #E8C300 solid;
+  border-radius: 50px;
+  width: 62px;
+  margin-bottom: 31px;
+}
+
+.button {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  width: 200px;
+  color: #ffffff;
+  padding: 22.5px 0;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0 20px;
+  margin-bottom: 82px;
+}
+
+.link_bg-corn {
+  background-color: #E8C300;
+  border: #E8C300;
+}
+
+.button-round {
+  border: transparent;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 100px 0;
+}
+
+.content-top {
+  margin-top: 117px;
+}
+
+.content-left {
+  text-align: center;
+  max-width: 600px;
+}
+
+.content-right {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.content-item {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.sub-title {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+
+.team {
+  background-image: url("../../assets/images/bg-team.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.content-booking {
+  margin-top: 62px;
+}
+
+.form-booking {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 14px;
+  line-height: 19.07px;
+  line-height: 100%;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  background-color: #E5E5E5;
+  width: 277px;
+  height: 60px;
+}
+
+.button-content {
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #E8C300;
+  color: #ffffff;
+}
+
+.button-booking {
+  width: 565px;
+  margin-left: -25px;
+}
+
+.heading_content {
+  margin-top: -18px;
+}
+
+.specialties {
+  background-image: url("../../assets/images/bg-specialties.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.menu__nav-item {
+  width: 120px;
+  padding: 16px 0;
+  text-align: center;
+  margin-bottom: 51px;
+}
+
+.menu__nav-item:nth-child(even) {
+  border-left: 1px solid rgba(51, 51, 51, 0.2);
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.menu__list {
+  width: 363px;
+  height: 66px;
+}
+
+.menu__list-item {
+  font-family: "Dosis Regular", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.item-transparent {
+  color: rgba(51, 51, 51, 0.2);
+}
+
+.event {
+  background-image: url("../../assets/images/bg-event.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.event__content {
+  max-width: 100%;
+  height: auto;
+}
+
+.event-item {
+  text-align: center;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: -50px;
+}
+
+.event-tel {
+  font-family: "Open Sans Bold", sans-serif;
+  font-weight: bold;
+}
+
+.gallery-pictures {
+  max-width: 360px;
+  max-height: 360px;
+  margin-top: -1px;
+}
+
+.form-contact {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 14px;
+  line-height: 19.07px;
+  line-height: 100%;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  background-color: #E5E5E5;
+  width: 420px;
+  height: 60px;
+}
+
+.form-contact__second {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-contact__message {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  font-family: "Open Sans Bold", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #8d8d8d;
+}
+
+.button-contact {
+  width: 640px;
+}
+
+.footer {
+  background-color: #000000;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100px;
+}
+
+.footer-bold {
+  font-weight: bold;
+}
